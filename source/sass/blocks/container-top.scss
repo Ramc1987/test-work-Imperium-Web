@@ -1,0 +1,15 @@
+.container-top {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.container-top__wrapper {
+  background-image: url("../../img/background/background-top@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

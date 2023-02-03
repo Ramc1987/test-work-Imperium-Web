@@ -1,0 +1,46 @@
+.menu-toggle {
+  display: flex;
+  justify-content: center;
+  height: 24px;
+  width: 30px;
+  margin-bottom: 48px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.menu-toggle__line {
+  position: relative;
+  width: 24px;
+  height: 1px;
+  background: $first-color;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 12px;
+    height: 1px;
+    width: 24px;
+    background: $first-color;
+    transition: transform 0.25s, top 0.25s 0.25s;
+  }
+
+  &::after {
+    content: "";
+    left: 0;
+    position: absolute;
+    top: 6px;
+    height: 1px;
+    width: 24px;
+    background: $first-color;
+    transition: transform 0.25s, top 0.25s 0.25s;
+  }
+}
+
+.sidebar--open .menu-toggle {
+  opacity: 0;
+  margin-bottom: 0;
+}

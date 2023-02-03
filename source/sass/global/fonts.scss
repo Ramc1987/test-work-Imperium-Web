@@ -1,21 +1,103 @@
-// @font-face {
-//   font-style: normal;
-//   font-weight: 400;
-//   font-family: "Rouble";
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "CormorantInfant", "Arial", sans-serif;
 
-//   font-display: swap;
-//   src:
-//     url("../fonts/rouble.woff2") format("woff2"),
-//     url("../fonts/rouble.woff") format("woff");
-// }
+  font-display: swap;
+  src: url("../../fonts/Cormorant-Bold.woff2") format("woff2"), url("../../fonts/Cormorant-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 700;
+  font-family: "CormorantInfant", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/CormorantInfant-BoldItalic.woff2") format("woff2"),
+    url("../../fonts/CormorantInfant-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "CormorantInfant", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/CormorantInfant-Italic.woff2") format("woff2"),
+    url("../../fonts/CormorantInfant-Italic.woff") format("woff");
+}
 
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "";
+  font-family: "CormorantInfant", "Arial", sans-serif;
 
   font-display: swap;
-  src:
-    url("../fonts/.woff2") format("woff2"),
-    url("../fonts/.woff") format("woff");
+  src: url("../../fonts/CormorantInfant-Regular.woff2") format("woff2"),
+    url("../../fonts/CormorantInfant-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Cormorant", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/Cormorant-Bold.woff2") format("woff2"), url("../../fonts/Cormorant-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "Cormorant", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/Cormorant-Italic.woff2") format("woff2"),
+    url("../../fonts/Cormorant-Italic.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Cormorant", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/Cormorant-Regular.woff2") format("woff2"),
+    url("../../fonts/Cormorant-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: italic;
+  font-weight: 400;
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/PTSans-Italic.woff2") format("woff2"), url("../../fonts/PTSans-Italic.woff2") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/PTSans-Bold.woff2") format("woff2"), url("../../fonts/PTSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "PT Sans", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/PTSans-Regular.woff2") format("woff2"), url("../../fonts/PTSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Inter", "Arial", sans-serif;
+
+  font-display: swap;
+  src: url("../../fonts/Inter-Regular.woff2") format("woff2"), url("../../fonts/Inter-Regular.woff") format("woff");
 }
