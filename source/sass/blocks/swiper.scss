@@ -1,0 +1,64 @@
+.swiper__card h2,
+span {
+  @include font(78px, 100%, 300);
+  font-family: "Comforant Infant", "Arial", sans-serif;
+  color: $first-color;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.swiper__card h2 {
+  margin-bottom: 24px;
+}
+
+.swiper__card h2 span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.swiper__card p {
+  @include font(16px, 21px, 400);
+
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.swiper__card-button-calc {
+  width: 152px;
+  padding: 11px 24px;
+  background-color: $second-color;
+  text-transform: uppercase;
+}
+
+.swiper__control-swiper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 70px;
+}
+
+.swiper__swiper-button {
+  border: none;
+  background-color: transparent;
+
+  &--next {
+    right: -7px;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  &--prev {
+    left: -7px;
+    transform: rotate(180deg);
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.swiper__control-swiper span {
+  @include font(13px, 17px, 400);
+}

@@ -1,8 +1,6 @@
 .container-top {
   position: relative;
   width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
   height: 100vh;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -12,4 +10,13 @@
   background-image: url("../../img/background/background-top@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container-top__swiper-wrapper {
+  max-width: 1370px;
+  padding-left: 80px;
+}
+
+.container-top__swiper-slides {
+  padding-top: 168px;
 }

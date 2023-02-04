@@ -1,0 +1,14 @@
+.header {
+  width: 100%;
+  position: fixed;
+  left: 0;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav__button-buy {
+  display: block;
+}

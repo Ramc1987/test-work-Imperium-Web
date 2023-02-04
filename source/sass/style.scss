@@ -3,7 +3,7 @@
 
 @import "vendor/normalize";
 // Swiper 7.4.1
-// @import "vendor/swiper";
+@import "vendor/swiper";
 
 // Global
 // ---------------------------------
@@ -19,6 +19,10 @@
 @import "../sass/blocks/container-top.scss";
 @import "../sass/blocks/sidebar.scss";
 @import "../sass/blocks/menu-toggle.scss";
+@import "../sass/blocks/header.scss";
+@import "../sass/blocks/nav.scss";
+@import "../sass/blocks/swiper.scss";
+@import "../sass/blocks/promo-card.scss";
 // ---------------------------------
 
 @import "blocks/btn";

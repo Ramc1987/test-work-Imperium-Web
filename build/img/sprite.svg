@@ -1,4 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="icon-close" viewBox="0 0 20 20"><g fill="none"><path d="M.293 18.291a1 1 0 101.414 1.414L10 11.413l8.292 8.292a1 1 0 101.414-1.414l-8.292-8.292 8.292-8.292A1 1 0 1018.291.293L9.999 8.585 1.707.293A1 1 0 10.293 1.707L8.585 10 .293 18.291z"/></g></symbol><symbol id="search" viewBox="0 0 11 13"><g fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="arrow" viewBox="0 0 13 24"><g fill="none">
+<path d="M1 1L12 12L1 23" stroke="#052E4C"/>
+</g></symbol><symbol id="basket" viewBox="0 0 20 16"><g fill="none">
+<path d="M8.37885 3.74324H18.9599L17.7843 10.4054H7.59507L4.45993 1H0.541016" stroke="#417A82" stroke-linejoin="round"/>
+<circle cx="9.16229" cy="13.9323" r="1.06757" stroke="#417A82"/>
+<circle cx="16.217" cy="13.9323" r="1.06757" stroke="#417A82"/>
+</g></symbol><symbol id="icon-close" viewBox="0 0 20 20"><g fill="none"><path d="M.293 18.291a1 1 0 101.414 1.414L10 11.413l8.292 8.292a1 1 0 101.414-1.414l-8.292-8.292 8.292-8.292A1 1 0 1018.291.293L9.999 8.585 1.707.293A1 1 0 10.293 1.707L8.585 10 .293 18.291z"/></g></symbol><symbol id="search" viewBox="0 0 11 13"><g fill="none">
 <circle cx="4.5" cy="4.5" r="4" transform="matrix(-1 0 0 1 9 0)" stroke="#417A82"/>
 <path d="M6.50012 7.5L10.4242 12.5435" stroke="#417A82"/>
 </g></symbol><symbol id="short-search" viewBox="0 0 25 25"><g fill="none">

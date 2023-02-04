@@ -94,8 +94,15 @@
   margin-right: 25px;
 }
 
-.sidebar__search {
+.sidebar__search-wrapper {
   margin-top: auto;
+}
+
+.sidebar--open .sidebar__search-wrapper {
+  margin-bottom: auto;
+}
+
+.sidebar__search {
   width: 25px;
   height: 25px;
   position: relative;
@@ -116,6 +123,7 @@
 }
 
 .sidebar__search input {
+  transition: 0.3 ease-in-out;
   border: none;
   width: 25px;
   height: 25px;
@@ -125,3 +133,22 @@
 .sidebar--open .sidebar__search {
   width: 100%;
 }
+
+.sidebar__about-list {
+  visibility: hidden;
+  max-height: 0;
+}
+
+.sidebar__about-item {
+  margin-bottom: 8px;
+}
+
+.sidebar__about-link {
+  @include font(13px, 17px, 400);
+  color: #417a82;
+}
+
+// .sidebar--open .sidebar__about-list {
+//   visibility: visible;
+//   max-height: fit-content;
+// }

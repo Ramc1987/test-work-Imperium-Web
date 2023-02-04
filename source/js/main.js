@@ -1,17 +1,19 @@
 import {iosVhFix} from './utils/ios-vh-fix';
 import {initModals} from './modules/modals/init-modals';
 import {initSideBar} from './modules/project/sidebar-menu';
+import {initSwiperPromo} from './modules/project/swiper-promo';
 
 // ---------------------------------
 
 window.addEventListener('DOMContentLoaded', () => {
-
+  const swiper = document.querySelector('.swiper');
   // Utils
   // ---------------------------------
 
   iosVhFix();
 
   // Modules
+  initSwiperPromo(swiper);
   // ---------------------------------
 
   // все скрипты должны быть в обработчике 'DOMContentLoaded', но не все в 'load'
