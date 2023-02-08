@@ -8,6 +8,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  pointer-events: visible;
 }
 
 .menu-toggle__line {
@@ -43,4 +44,5 @@
 .sidebar--open .menu-toggle {
   opacity: 0;
   margin-bottom: 0;
+  z-index: 2;
 }

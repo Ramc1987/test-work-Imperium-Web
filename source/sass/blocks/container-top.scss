@@ -2,14 +2,15 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
 }
 
 .container-top__wrapper {
+  width: 100%;
   background-image: url("../../img/background/background-top@1x.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0;
 }
 
 .container-top__swiper-wrapper {
